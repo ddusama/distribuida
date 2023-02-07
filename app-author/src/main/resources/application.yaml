@@ -1,0 +1,12 @@
+quarkus:
+  datasource:
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASS}
+    jdbc:
+      url: ${DATABASE_URL}
+    db-kind: postgresql
+  http:
+    port: 9090
+  flyway:
+    migrate-at-start: true
+    out-of-order: true

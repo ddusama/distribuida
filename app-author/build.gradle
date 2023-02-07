@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'io.quarkus' version '2.16.0.Final'
+    id "io.freefair.lombok" version "6.6.1"
+}
+
+application {
+    mainClassName = 'org.du.Main'
+}
+
+group 'com.distribuida'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    quarkusv = '2.16.0.Final'
+
+}
+
+
+
+dependencies {
+    // quarkus
+    implementation enforcedPlatform("io.quarkus.platform:quarkus-bom:${project.quarkusv}")
+    implementation group:'io.quarkus', name: 'quarkus-resteasy'
+    implementation 'io.quarkus:quarkus-jdbc-postgresql'
+    implementation group: 'io.quarkus', name: 'quarkus-hibernate-orm-panache', version: '2.16.0.Final'
+    // consul
+    implementation group: 'io.quarkus', name: 'quarkus-consul-config', version: '2.7.1.Final'
+    implementation 'com.orbitz.consul:consul-client:1.5.3'
+    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
+    implementation group: 'io.quarkus', name: 'quarkus-smallrye-health'
+    // pool de conexión
+    implementation 'com.zaxxer:HikariCP:5.0.1'
+    implementation 'org.postgresql:postgresql:42.5.1'
+    implementation 'org.jboss.resteasy:resteasy-jackson2-provider:4.7.4.Final'
+    implementation group: 'io.quarkus', name: 'quarkus-flyway', version: '3.0.0.Alpha3'
+    // panache
+    annotationProcessor("io.quarkus:quarkus-panache-common")
+    implementation("io.quarkus:quarkus-config-yaml")
+}
+
+sourceSets{
+    main{
+        output.resourcesDir = file("${buildDir}/classes/java/main")
+    }
+}

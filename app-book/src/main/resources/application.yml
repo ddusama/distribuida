@@ -1,0 +1,6 @@
+database:
+  source: jdbc
+  connection:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASS}

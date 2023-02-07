@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0e74ba1-7ee6-4100-9c11-87c63b11617d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="app-book" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2L471fdKt1eMXyONDT0pkB9roJX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/ProgramacionDistribuida/app-web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ProgramacionDistribuida\app-book\src\main\resources" />
+      <recent name="C:\ProgramacionDistribuida\app-book\src\main\resources\META-INF" />
+      <recent name="C:\ProgramacionDistribuida\app-book\src\main\java\com\distribuida" />
+      <recent name="C:\ProgramacionDistribuida\app-book\src\main\java" />
+      <recent name="C:\ProgramacionDistribuida\app-book\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ProgramacionDistribuida\app-book" />
+      <recent name="C:\ProgramacionDistribuida\app-book\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.du" />
+      <recent name="com.distribuida.srv" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Mai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="DATABASE_URL" value="jdbc:postgresql://localhost:5432/postgres" />
+        <env name="DATABASE_USER" value="postgres" />
+        <env name="DATABASE_PASS" value="postgres" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.du.Mai" />
+      <module name="com.distribuida.app-book.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.du.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <envs>
+        <env name="DATABASE_URL" value="jdbc:postgresql://localhost:5432/postgres" />
+        <env name="DATABASE_USER" value="postgres" />
+        <env name="DATABASE_PASS" value="postgres" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.du.Main" />
+      <module name="com.distribuida.app-book.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.du.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="DATABASE_URL" value="jdbc:postgresql://localhost:5432/postgres" />
+        <env name="DATABASE_USER" value="postgres" />
+        <env name="DATABASE_PASS" value="postgres" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.du.Main" />
+      <module name="app-book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.du.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Mai" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Mai" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0e74ba1-7ee6-4100-9c11-87c63b11617d" name="Changes" comment="" />
+      <created>1675118291137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675118291137</updated>
+      <workItem from="1675118293172" duration="4002000" />
+      <workItem from="1675123502294" duration="25000" />
+      <workItem from="1675125774336" duration="7500000" />
+      <workItem from="1675141579196" duration="349000" />
+      <workItem from="1675142278472" duration="3333000" />
+      <workItem from="1675154155114" duration="593000" />
+      <workItem from="1675154828439" duration="295000" />
+      <workItem from="1675155397897" duration="6466000" />
+      <workItem from="1675163446340" duration="16000" />
+      <workItem from="1675164210444" duration="27000" />
+      <workItem from="1675164464213" duration="633000" />
+      <workItem from="1675732041471" duration="789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
