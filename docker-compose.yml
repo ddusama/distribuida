@@ -17,7 +17,7 @@ services:
     expose:
       - 4040
   app-authors:
-    image: ddusama/app-author:1.0.0
+    image: jaimesalvador/app-author:1.0.0
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.app-author.rule=PathPrefix(`/author`)"
@@ -33,7 +33,7 @@ services:
     expose:
       - 9090
   app-web:
-    image: ddusama/app-web:1.0.0
+    image: jaimesalvador/app-web:1.0.0
     deploy:
       replicas: 1
     ports:
